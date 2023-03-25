@@ -1,12 +1,12 @@
-import list
+import list as L
 
 
 class module:
     def __init__(self):
-        list.score().my_print()
-        list.score().print_native_number()
-        list.score().print_range()
-        list.score().sort_and_print()
+        L.score().my_print()
+        L.score().print_native_number()
+        L.score().print_range()
+        L.score().sort_and_print()
 
 
 Test=module()
