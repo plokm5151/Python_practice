@@ -1,3 +1,12 @@
+class Driver:
+    def __init__(self):
+        my=123
+    
+    def __xpaht(self):
+        print('Yes!')
+    
+    def get_xpath(self):
+        self.__xpaht()
 class Car:
     def __init__(self, make, model, year, speed):
         self.__make = make
@@ -5,6 +14,10 @@ class Car:
         self.__year = year
         self.__speed = speed
 
+    def test(self):
+        #Driver.__xpaht(0)
+        ddd=Driver()
+        ddd.get_xpath() 
     def get_make(self):
         return self.__make
 
@@ -31,6 +44,9 @@ class Car:
 
 my_car = Car("Toyota", "Corolla", 2020, 0)
 
-my_car.set_speed(60)
+my_car.test()
 
-print("My car is a " + my_car.get_make() + " " + my_car.get_model() + " " + str(my_car.get_year()) + " model and is currently traveling at " + str(my_car.get_speed()) + " mph.")
+
+#my_car.set_speed(60)
+
+#print("My car is a " + my_car.get_make() + " " + my_car.get_model() + " " + str(my_car.get_year()) + " model and is currently traveling at " + str(my_car.get_speed()) + " mph.")
